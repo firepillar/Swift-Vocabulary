@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		6FFC5C75229DB16C00134DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC5C74229DB16C00134DDA /* AppDelegate.swift */; };
-		6FFC5C77229DB16C00134DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC5C76229DB16C00134DDA /* ViewController.swift */; };
 		6FFC5C7A229DB16C00134DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFC5C78229DB16C00134DDA /* Main.storyboard */; };
 		6FFC5C7C229DB16D00134DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFC5C7B229DB16D00134DDA /* Assets.xcassets */; };
 		6FFC5C7F229DB16D00134DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFC5C7D229DB16D00134DDA /* LaunchScreen.storyboard */; };
+		6FFC5C87229DB19900134DDA /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC5C86229DB19900134DDA /* WordsTableViewController.swift */; };
+		6FFC5C89229DB1B800134DDA /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC5C88229DB1B800134DDA /* DefinitionViewController.swift */; };
+		6FFC5C8B229DB78A00134DDA /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC5C8A229DB78A00134DDA /* VocabularyWord.swift */; };
+		6FFC5C8D229DB7EB00134DDA /* VocabularyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC5C8C229DB7EB00134DDA /* VocabularyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6FFC5C71229DB16C00134DDA /* Swift Vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Vocabulary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFC5C74229DB16C00134DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6FFC5C76229DB16C00134DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FFC5C79229DB16C00134DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FFC5C7B229DB16D00134DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FFC5C7E229DB16D00134DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FFC5C80229DB16D00134DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFC5C86229DB19900134DDA /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		6FFC5C88229DB1B800134DDA /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		6FFC5C8A229DB78A00134DDA /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
+		6FFC5C8C229DB7EB00134DDA /* VocabularyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				6FFC5C74229DB16C00134DDA /* AppDelegate.swift */,
-				6FFC5C76229DB16C00134DDA /* ViewController.swift */,
+				6FFC5C8C229DB7EB00134DDA /* VocabularyController.swift */,
+				6FFC5C86229DB19900134DDA /* WordsTableViewController.swift */,
+				6FFC5C8A229DB78A00134DDA /* VocabularyWord.swift */,
+				6FFC5C88229DB1B800134DDA /* DefinitionViewController.swift */,
 				6FFC5C78229DB16C00134DDA /* Main.storyboard */,
 				6FFC5C7B229DB16D00134DDA /* Assets.xcassets */,
 				6FFC5C7D229DB16D00134DDA /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FFC5C77229DB16C00134DDA /* ViewController.swift in Sources */,
+				6FFC5C89229DB1B800134DDA /* DefinitionViewController.swift in Sources */,
+				6FFC5C8D229DB7EB00134DDA /* VocabularyController.swift in Sources */,
 				6FFC5C75229DB16C00134DDA /* AppDelegate.swift in Sources */,
+				6FFC5C87229DB19900134DDA /* WordsTableViewController.swift in Sources */,
+				6FFC5C8B229DB78A00134DDA /* VocabularyWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
